@@ -1,0 +1,27 @@
+h1#testimonials {
+    padding-top: 10px;
+}
+
+div#testimonial-container {
+    margin-top: 3%;
+    width: 70%;
+    height: auto;
+    background: rgb(64, 64, 64);
+    display: flex;
+    justify-content: center;
+}
+
+#text-container {
+    flex-direction: column;
+    width: 80%;
+}
+
+p.testimonial {
+    width:100%;
+    text-align: center;
+}
+
+#test-box {
+    display: flex;
+    justify-content: center;
+}

@@ -21,7 +21,7 @@ export const App = () => {
             <h2 id='intro-title'>Enduring Tradition</h2>
             <p>At <span> Creative Stitchworkz</span>, we don't just reupholster cars; we revive memories, preserve legacies, and create beautiful interiors. <br/><br/>Join us on this journey where military precision meets artistic passion, and where your vision becomes our mission.</p>
             <p>Experience the <span> Creative Stitchworkz</span> difference today where quality, integrity, and tradition converge to deliver excellence in every stitch. <br/><br/> Thank you for considering us as your trusted upholstery partner in Tacoma, Washington.</p>
-            <p id='sm-intro'>Welcome to Tradition.<br/>Welcome to Excellence.<br/> Welcome to <span> Creative Stitchworkz</span>. </p>
+            <p id='sm-intro'>Welcome to <span id='tradition'>Tradition</span>.<br/>Welcome to Excellence.<br/> Welcome to <span> Creative Stitchworkz</span>. </p>
             <div>
               <div className='social'>
               {links.map((link, index) => (

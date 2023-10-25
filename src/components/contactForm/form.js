@@ -28,7 +28,8 @@ const Form = () => {
     <div>
         <h1 id='form'>Contact Me</h1>
         <div id='form-container'>
-            <form>
+            <div className='stuff'>
+            <form className='form'>
                 {links.map((link, index) => {
                    return(
                     <>
@@ -40,8 +41,9 @@ const Form = () => {
                    )
                 })}
                 <textarea type='text'/>
-                <button type='submit' />
+                <button className="button" type='submit'>Submit</button>
             </form>
+            </div>
         </div>
     </div>
   )

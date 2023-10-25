@@ -1,7 +1,7 @@
 #form {
   color: white;
-  background: linear-gradient(to-bottom, green 50%, white 50%);
 }
+
 #form-container {
   display: flex;
   justify-content: center;
@@ -12,20 +12,20 @@ input {
   min-width: 50vw;
     font-size: larger;
     height: 40px;
-    background: rgb(165, 1, 1);
+    background: rgb(35, 34, 34);
     border-radius: 10px;
     color: white;
-    border: solid 2px white;
+    border: solid 2px rgb(165,1,1);
 }
 
 textarea{
   min-width: 50vw;
     font-size: larger;
     height: 40px;
-    background: rgb(165, 1, 1);
+    background: rgb(35, 34, 34);
     border-radius: 10px;
     color: white;
-    border: solid 2px white;
+    border: solid 2px rgb(165,1,1);
 }
 
 h1 {
@@ -39,4 +39,23 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.button {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid rgb(165,1,1);
+  margin-top: 5px;
+  background-color: inherit;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(165,1,1);
+}
+
+.stuff {
+  background: rgb(72, 7, 7, .5);
+  padding: 20px;
 }

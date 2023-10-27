@@ -7,12 +7,17 @@ const Testimonials = () => {
     <div id='test-box'>
         <div id='testimonial-container'>
             <div id='text-container'>
-                <h1 id='testimonials'>See what our customer's are saying</h1>
+                <h2 id='testimonial-header'>Reviews</h2>
+                <div className='testimonials'>
                 {testimonials.map((testimonial, index) => {
                     return(
-                        <p key={index}>{testimonial.test}</p>
+                        <div className='ind-test-container'>
+                            <p className='testimonial' key={index}>{testimonial.test}</p>
+                            <h2 className='customer'> - {testimonial.customer}</h2>
+                        </div>
                     )
                 })}
+                </div>
             </div>
         </div>
     </div>

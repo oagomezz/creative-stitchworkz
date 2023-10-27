@@ -1,5 +1,12 @@
-#form {
-  color: white;
+h2#form {
+  color: rgb(249,189,90);
+  font-size: 60px;
+  margin: 25px 0px 25px 0px;
+  text-align: left;
+  @media(max-width:600px) {
+    font-size: 30px;
+
+  }
 }
 
 #form-container {
@@ -15,7 +22,8 @@ input {
     background: rgb(35, 34, 34);
     border-radius: 10px;
     color: white;
-    border: solid 2px rgb(165,1,1);
+    border: solid 2px   rgb(165,1,1);
+    margin-top: 5px;
 }
 
 textarea{
@@ -25,7 +33,7 @@ textarea{
     background: rgb(35, 34, 34);
     border-radius: 10px;
     color: white;
-    border: solid 2px rgb(165,1,1);
+    border: solid 2px  rgb(165,1,1);
 }
 
 h1 {
@@ -58,4 +66,9 @@ form {
 .stuff {
   background: rgb(72, 7, 7, .5);
   padding: 20px;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
 }

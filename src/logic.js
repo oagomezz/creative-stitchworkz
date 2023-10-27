@@ -23,20 +23,20 @@ export const pages = [
 
 export const testimonials = [
     {
-    test: "Lorem Ipsum Service has truly changed the way I work. The Lorem Ipsum team is amazing, and their Lorem Ipsum solutions are top-notch. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nisi ut lorem ullamcorper.",
-    customer: 'John Doe'
+    test: "While Creative Stitch Stitchworkz is still fairly new Eros has done a fantastic job making my dream come true creating the canvas top for my custom VW. Any upholstery I may need this is the place I will always go to!! I will always recommend Creative Stitchworkz to anyone!",
+    customer: 'Peter Hangslou'
 },
 {
-    test: "Lorem Ipsum Service has truly changed the way I work. The Lorem Ipsum team is amazing, and their Lorem Ipsum solutions are top-notch. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nisi ut lorem ullamcorper.",
-    customer: 'John Doe'
+    test: "Great experience, highly recommend. He knocked it out of the park on my seat. Thanks",
+    customer: 'Jesus Ruiz'
 },
 {
-    test: "Lorem Ipsum Service has truly changed the way I work. The Lorem Ipsum team is amazing, and their Lorem Ipsum solutions are top-notch. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nisi ut lorem ullamcorper.",
-    customer: 'John Doe'
+    test: "We were very pleased with the service, communication, quality of the product used and the results are wonderful",
+    customer: 'Stacy Evans'
 },
 {
-    test: "Lorem Ipsum Service has truly changed the way I work. The Lorem Ipsum team is amazing, and their Lorem Ipsum solutions are top-notch. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nisi ut lorem ullamcorper.",
-    customer: 'John Doe'
+    test: "Outstanding on seats, headliners and more!!",
+    customer: 'KJ Ulmer'
 }
 ]
 

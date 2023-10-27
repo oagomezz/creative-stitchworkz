@@ -1,27 +1,42 @@
-h1#testimonials {
-    padding-top: 10px;
+h2#testimonial-header {
+    font-size: 60px;
+    margin: 0;
+    text-align:left;
+    color: rgb(249,189,90);
 }
 
 div#testimonial-container {
     margin-top: 3%;
     width: 70%;
     height: auto;
-    background: rgb(64, 64, 64);
     display: flex;
     justify-content: center;
 }
 
 #text-container {
     flex-direction: column;
-    width: 80%;
+    width: 100%;
 }
 
 p.testimonial {
     width:100%;
+    display: flex;
     text-align: center;
 }
 
 #test-box {
     display: flex;
     justify-content: center;
+}
+.customer {
+    text-align: right;
+    margin-right: 6vw;
+    color: white;
+}
+.ind-test-container {
+    width: 90%;
+    margin: 5%;
+}
+.testimonials {
+    text-align: center;
 }

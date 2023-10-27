@@ -37,7 +37,7 @@ export const App = () => {
         </div>
       </div>
       <Testimonials />
-      <div>
+      <div className='contact-box'>
         <Contact />
       </div>
       <div>

@@ -48,9 +48,10 @@ span {
   }
 }
 #intro-title {
-  font-size: 20px;
+  font-size: 60px;
+  margin: 25px 0 25px 0;
+  font-weight: bold;
   color: rgb(249,189,90);
-  font-weight: lighter;
   @media (max-width: 600px){
     display: none;
   }
@@ -58,4 +59,9 @@ span {
 
 #tradition {
   color: rgb(249,189,90);
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
 }

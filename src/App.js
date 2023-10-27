@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/header/header';
 import MobileNavigation from './components/mobile/mobile-nav.js';
-import Form from './components/contactForm/form.js'
+import Contact from './components/contactForm/form.js'
 import Testimonials from './components/testimonials/testimonials';
 import { links } from './logic';
 import Footer from './components/footer/footer';
@@ -38,7 +38,7 @@ export const App = () => {
       </div>
       <Testimonials />
       <div>
-        <Form />
+        <Contact />
       </div>
       <div>
         <Footer />

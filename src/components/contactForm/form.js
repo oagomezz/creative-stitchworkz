@@ -79,7 +79,7 @@ const Contact = () => {
     ]
   return (
     <div className='form-box'>
-        <h2 id='form'>Contact Me</h2>
+        <h2 id='form'>Contact Us</h2>
         <div id='form-container'>
             <div className='stuff'>
             <form ref={formRef} onSubmit={handleSubmit} className='form' method='post' action='send-email.php'>

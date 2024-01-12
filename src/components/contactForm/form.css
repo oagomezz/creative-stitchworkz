@@ -17,12 +17,10 @@ h2#form {
 
 input {
   min-width: 50vw;
-    font-size: larger;
     height: 40px;
-    background: rgb(35, 34, 34);
+    background: rgb(117, 114, 114);
     border-radius: 10px;
-    color: white;
-    border: solid 2px   rgb(165,1,1);
+    color: rgb(145, 140, 140);
     margin-top: 5px;
 }
 
@@ -33,15 +31,14 @@ textarea{
     background: rgb(35, 34, 34);
     border-radius: 10px;
     color: white;
-    border: solid 2px  rgb(165,1,1);
 }
 
 h1 {
   text-decoration: none;
 }
 input::placeholder {
-  color: white;
-  font-size: larger;
+  color: rgb(206, 198, 198);
+  font-weight: lighter;
 }
 form {
   display: flex;
@@ -53,7 +50,6 @@ form {
   height: 50px;
   width: 100px;
   border-radius: 10px;
-  border: 1px solid rgb(165,1,1);
   margin-top: 5px;
   background-color: inherit;
   color: white;
@@ -64,11 +60,17 @@ form {
 }
 
 .stuff {
-  background: rgb(72, 7, 7, .5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 20px;
 }
 .form-box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 70%;
+  height: 90vh;
+  @media (max-width: 750px){
+    margin: 10px;
+    height: 70vh;
+  }
 }

@@ -8,17 +8,20 @@ return (
 <div id='footer'>
     <div className='footer-content'>
         <div id='footer-left'>
-            <h5>
-                5636 S Tacoma Way, Tacoma, WA 98409  
-            </h5>
-            <h5>
+            <h1> Find us</h1>
+            <h3>
+                5636 S Tacoma Way, Tacoma, WA 98409 <br />
                 (253) 442-5729
-            </h5>
+            </h3>
+                
         </div>
         <div id='footer-middle'>
-            <img id='footer-image' src={logo} alt='logo' />
+            <h1> Work Hours</h1>
+            <span style={{fontSize: '14px'}}>Monday - Friday - 9AM - 5PM </span >
+            <span style={{fontSize: '14px'}}>Saturday - Sunday - Closed</span>
         </div>
         <div id='footer-right'>
+            <h1> Quick Links</h1>
             <div id='right-container'>
                 {links.map((link, index) => (
                     <div key={index}>
@@ -29,6 +32,10 @@ return (
                 ))}
             </div>
         </div>
+    </div>
+    <hr/>
+    <div>
+        <h3 style={{display: "flex", justifyContent: 'center', padding: '20px'}}><span>Creative Stitchworkz&nbsp;</span>&copy; 2024 All rights reserved</h3>
     </div>
 </div>
 )}

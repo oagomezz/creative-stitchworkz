@@ -3,6 +3,9 @@ h1 {
   justify-content: center;
 }
 
+.head{
+  z-index: 2000;
+}
 .hero {
   height: auto;
   width: 70%;
@@ -13,6 +16,8 @@ h1 {
 #hero-box {
   display:flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 p {
@@ -37,7 +42,7 @@ svg {
   color: rgb(165, 1, 1);
 }
 
-span {
+span.cs {
   color: rgb(165, 1, 1);
 }
 #sm-intro {

@@ -1,8 +1,14 @@
-h2#testimonial-header {
+h1#testimonial-header {
+    margin: 10;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
     font-size: 60px;
-    margin: 0;
-    text-align:left;
     color: rgb(249,189,90);
+    @media(max-width: 750px) {
+        font-size: 10vw;
+        margin: 20px;
+    }
 }
 
 div#testimonial-container {
@@ -23,11 +29,12 @@ p.testimonial {
     width:50%;
     display: flex;
     text-align: center;
-    padding: 5px;
-    @media (max-width: 600px){
-        font-size: 16px;
-        justify-content: center;
-      }    
+}
+@media (max-width: 600px){
+    .testimonial{
+    font-size: 16px;
+    justify-content: center;
+    }
 }
 
 #test-box {
@@ -35,9 +42,10 @@ p.testimonial {
     justify-content: center;
 }
 .customer {
-    text-align: center;
-    margin: 5%;
-    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 30px;
     color: white;
     @media (max-width: 600px){
         font-size: 16px;
@@ -45,22 +53,27 @@ p.testimonial {
       }   
 }
 .ind-test-container {
-    background: rgba(27, 27, 27, .5);
-    margin: 5%;
-    border-radius: 25px;
+    border-radius: 5px;
     display: flex;
+    background: rgb(53, 52, 52);
     flex-direction: column;
     align-items: center;
-    @media (max-width: 600px){
-        background: black;
-      } 
 }
-.testimonials {
-    text-align: center;
-    background-color: rgb(72, 7, 7, .5);
-    border-radius: 25px;
+@media(min-width: 1260px){
+    .ind-test-container{
+        background: none;
+    }
+}
+
+.centered-text {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media(max-width:600px ){
+        display: flex;
+        flex-direction: column;
+    }
 }
 .picture {
     height: 150px;
@@ -68,12 +81,28 @@ p.testimonial {
     margin: 5px;
     @media (max-width: 600px){
         display: none;
-      }
-
+    }
+}
+.picture:hover {
+    transform: scale(2.0);
+    cursor: pointer;
 }
 .test-img-container {
-    background: rgb(0,0,0,0.5);
-    border-radius: 25px;
-    margin: 5%;
-    padding: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    width: 400px;
+    margin: 1%;
+    padding: 1%;
+}
+@media(max-width: 600px){
+    .test-img-container{
+        width: 100%;
+    }
+}
+@media(min-width: 1260px){
+    .test-img-container{
+        background-color: rgb(53, 52, 52);
+        border-radius: 5px;
+    }
 }

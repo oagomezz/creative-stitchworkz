@@ -23,7 +23,7 @@ export const pages = [
 
 export const testimonials = [
     {
-    test: "While Creative Stitch Stitchworkz is still fairly new Eros has done a fantastic job making my dream come true creating the canvas top for my custom VW. Any upholstery I may need this is the place I will always go to!! I will always recommend Creative Stitchworkz to anyone!",
+    test: "While Creative Stitch Stitchworkz is still fairly new. Eros has done a fantastic job making my dream come true creating the canvas top for my custom VW. Any upholstery I may need, this is the place I will always go to!! I will always recommend Creative Stitchworkz to anyone!",
     customer: 'Peter Hangslou',
     pictures: ['https://lh5.googleusercontent.com/p/AF1QipPcNzL62L9x6SJUrFj2OnY_brlWR248VpU63Ycd=w600-h321-p-k-no', "https://lh5.googleusercontent.com/p/AF1QipPSCNIYoIQZIZ1bAQQrbVGq2k4Ba3V5YKbtayI2=w600-h650-p-k-no", "https://lh5.googleusercontent.com/p/AF1QipN0wbnh0ZLvgv3X-Nw8S0AjFUV6uG9O29CebgpV=w600-h650-p-k-no", "https://lh5.googleusercontent.com/p/AF1QipMpMwdue6fIrmEfVKJUh53kzAQLUKk30ZKxoO5J=w600-h650-p-k-no"]
 },
